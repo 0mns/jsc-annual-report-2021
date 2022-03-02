@@ -1,16 +1,123 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+/* global */
+@font-face {
+  font-family: 'mv_waheedregular';
+  src: url('/fonts/mvwaheed.woff2') format('woff2'),
+       url('/fonts/mvwaheed.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'mv_faseyharegular';
+  src: url('/fonts/mv_faseyha.woff2') format('woff2'),
+       url('/fonts/mv_faseyha.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.paragraph-fade{
+  -webkit-mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
+  mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
+
 }
+
+.main-section{
+  background-image: url('/bg-sm_1.svg');
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: top;
+}
+@font-face {
+  font-family: 'Butler';
+  src: 
+       url('/fonts/Butler.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+.font-butler{
+  font-family: Butler;
+}
+
+.font-waheed{
+  font-family: mv_waheedregular;
+}
+html,
+body {
+  color: rgb(44, 40, 39);
+  direction: rtl;
+  padding: 0;
+  margin: 0;
+  font-family: mv_faseyharegular, mv_waheedregular;
+  --swiper-theme-color: red
+}
+.ltr{
+  direction: ltr;
+}
+
+.rtl{
+  direction: rtl;
+}
+.text-stroke{
+  text-shadow: 
+  -1px -1px 0 rgb(255, 255, 255),
+     0   -1px 0 rgb(255, 255, 255),
+     1px -1px 0 rgb(255, 255, 255),
+     1px  0   0 rgb(255, 255, 255),
+     1px  1px 0 rgb(255, 255, 255),
+     0    1px 0 rgb(255, 255, 255),
+    -1px  1px 0 rgb(255, 255, 255),
+    -1px  0   0 rgb(255, 255, 255) 
+}
+
+.mySwiper-people .swiper-slide {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  background-color: rgb(243, 243, 243) !important;
+}
+
+
+
+
+.mySwiper-photogallery .swiper-slide {
+ display: inline-block;
+ width: 80%;
+
+}
+.mySwiper-photogallery .swiper-wrapper {
+
+}
+
+
+
+.mySwiper-photogallery .swiper-slide-next{
+  opacity: 50%;
+}
+
+.mySwiper-photogallery .swiper-slide-prev{
+  opacity: 50%;
+}
+
+.swiper-pagination-bullet{
+  display: inline-block !important;
+    border-radius: 0% !important;
+    width: 54px !important;
+    height: 5px !important;
+}
+.swiper-pagination-bullet-active{
+  height: 7px !important
+}
+
+
+
 
 * {
   box-sizing: border-box;
 }
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
