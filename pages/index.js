@@ -124,16 +124,57 @@ export default function Home() {
 
       <div className='bg-[#9C893D] bg-opacity-10'>
         <div className='container p-6 mx-auto'>
-          <div className='max-w-xl mx-auto mt-10 mb-10'>
+          <div className='max-w-6xl mx-auto mt-10 mb-10'>
             <h2 className=' text-4xl font-waheed text-center  text-[#9C893D]  mb-10 '>ކޮމިޝަނުގެ މެންބަރުން</h2>
-              <div>
-                <div className='w-64 text-center'>
-                  <img src='/members/hisaan-hussain@3x.png' />
-                  <h3 className='font-waheed text-lg text-[#3C6686] mt-4'>ކޮމިޝަނުގެ ރައީސް</h3>
-                  <p className='text-xl mt-2'>އަލްއުސްތާޛާ ޙިސާން ޙުސައިން</p>
-                  <p className='text-sm opacity-80 mt-2'>އަލްއުސްތާޛާ ޙިސާން ޙުސައިން</p>
-                </div>
+          
+          
+            <div className='flex flex-wrap justify-between items-align-center'>
+
+
+              <div className='w-64 text-center mx-auto mt-10'>
+                <img src='/members/hisaan-hussain@3x.png' />
+                <h3 className='font-waheed text-lg text-[#3C6686] mt-4'>ކޮމިޝަނުގެ ރައީސް</h3>
+                <p className='text-xl mt-2'>އަލްއުސްތާޛާ ޙިސާން ޙުސައިން</p>
+                <p className='text-sm opacity-80 mt-2'>ރައްޔިތުންގެ މަޖިލީހުގެ މެންބަރުންގެ ތެރެއިން އެ މަޖިލީހުން ކަނޑައަޅާ މެންބަރު
+                </p>
               </div>
+
+
+
+              <div className='w-64 text-center mx-auto mt-10'>
+                <img src='/members/hisaan-hussain@3x.png' />
+                <h3 className='font-waheed text-lg text-[#3C6686] mt-4'>ކޮމިޝަނުގެ ރައީސް</h3>
+                <p className='text-xl mt-2'>އަލްއުސްތާޛާ ޙިސާން ޙުސައިން</p>
+                <p className='text-sm opacity-80 mt-2'>ރައްޔިތުންގެ މަޖިލީހުގެ މެންބަރުންގެ ތެރެއިން އެ މަޖިލީހުން ކަނޑައަޅާ މެންބަރު
+                </p>
+              </div>
+
+
+            </div>
+
+
+            <div  className='flex flex-wrap justify-between items-align-center'>
+
+            <div className='w-52 text-center mx-auto mt-10'>
+                <img src='/members/hisaan-hussain@3x.png' />
+                <h3 className='font-waheed text-lg text-[#3C6686] mt-4'>ކޮމިޝަނުގެ ރައީސް</h3>
+                <p className='text-xl mt-2'>އަލްއުސްތާޛާ ޙިސާން ޙުސައިން</p>
+                <p className='text-sm opacity-80 mt-2'>ރައްޔިތުންގެ މަޖިލީހުގެ މެންބަރުންގެ ތެރެއިން އެ މަޖިލީހުން ކަނޑައަޅާ މެންބަރު
+                </p>
+              </div>
+
+              
+
+              <div className='w-52 text-center mx-auto mt-10'>
+                <img src='/members/hisaan-hussain@3x.png' />
+                <h3 className='font-waheed text-lg text-[#3C6686] mt-4'>ކޮމިޝަނުގެ ރައީސް</h3>
+                <p className='text-xl mt-2'>އަލްއުސްތާޛާ ޙިސާން ޙުސައިން</p>
+                <p className='text-sm opacity-80 mt-2'>ރައްޔިތުންގެ މަޖިލީހުގެ މެންބަރުންގެ ތެރެއިން އެ މަޖިލީހުން ކަނޑައަޅާ މެންބަރު
+                </p>
+              </div>
+            </div >
+
+
           </div>
 
 
