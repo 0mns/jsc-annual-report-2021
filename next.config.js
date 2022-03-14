@@ -1,7 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  basePath: '',
+  basePath: '/annual-report-2021',
+  trailingSlash: false,
 }
 
 module.exports = nextConfig
