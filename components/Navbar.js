@@ -1,7 +1,7 @@
 
 export default function Navbar() {
     return (
-        <nav className="flex top-0 items-center w-full fixed  backdrop-blur bg-white shadow-sm   bg-opacity-80 z-40 py-2 px-6">
+        <nav className="flex items-center w-full sticky top-0 backdrop-blur bg-white shadow-sm   bg-opacity-80 z-40 py-2 px-6">
             <div className='flex container w-full mx-auto justify-between flex-wrap'>
 
             <div className="flex items-center flex-shrink-0 text-white">
